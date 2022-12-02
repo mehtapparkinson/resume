@@ -1,0 +1,26 @@
+.j {
+    display: flex;
+    height: 80vh;
+    margin: 20px;
+}
+
+.j-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+    color: rgb(78, 78, 78);
+    line-height: 2.0;
+}
+
+.j-right {
+    flex: 1;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(213, 244, 213);
+    border-radius: 100%;
+    box-shadow: 0 0 10px 0 rgba(207, 207, 207, 0.9);
+}
