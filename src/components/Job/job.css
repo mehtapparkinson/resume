@@ -24,3 +24,13 @@
     border-radius: 100%;
     box-shadow: 0 0 10px 0 rgba(207, 207, 207, 0.9);
 }
+
+.moti {
+    width: 150px;
+    margin: 30px;
+
+}
+
+.moti a {
+   font-size: larger;
+}
