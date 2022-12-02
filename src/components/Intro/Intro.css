@@ -129,6 +129,7 @@
   @media screen and (max-width: 480px) {
     .i {
       flex-direction: column;
+
     }
   
     .i-left-wrapper {
@@ -141,7 +142,20 @@
     }
   
     .i-desc{
+      display: flex;
+      flex-direction: column;
+      font-size: 15px;
+      
+    }
+
+    .disc {
       display: none;
+    }
+
+    .i-desc-item {
+      display: flex;
+      flex-direction: inline;
+
     }
     
   }
