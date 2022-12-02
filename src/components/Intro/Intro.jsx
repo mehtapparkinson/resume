@@ -27,7 +27,7 @@ const Intro = () => {
               <a href="https://www.github.com/mehtapparkinson" target="_blank" rel="noreferrer">GitHub</a>
             </button>
             <button>
-              <a href="https://drive.google.com/file/d/1PcZP9evv0dKmkZi1AtGTaw39E2EjCuqd/view?usp=share_link" target="_blank" rel="noreferrer">My CV</a>
+              <a href="https://drive.google.com/file/d/1Jgfub9TWyd7mSape2H2w89JPVC0hseMa/view?usp=share_link" target="_blank" rel="noreferrer">My CV</a>
             </button>
             <br />
             <br />

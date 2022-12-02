@@ -50,3 +50,36 @@ p {
 .p-intro {
   margin-bottom: 50px;
 }
+
+
+@media screen and (max-width: 480px) {
+  .pl {
+    padding: 10px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .pl-texts {
+    width: 100%;
+  }
+
+  .pl-desc {
+    display: none;
+  }
+
+.pl-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.p-intro {
+}
+
+.pl-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+}

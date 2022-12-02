@@ -6,8 +6,9 @@ import cert2 from "../../img/4.png";
 const Intro = () => {
   return (
     <div className="c">
+      <div className="c-warpper">
       <h2 className="c-intro">My Bootcamp Certifications</h2>
-      <div>
+      <div className="certs">
         <div className="c-item">
           <div className="c-left">
             <h2 className="c-item">Code First Girls</h2>
@@ -19,10 +20,9 @@ const Intro = () => {
             <img className="c-img" src={cert2} alt=""/>
             <p className="c-item">FullStack Web Development</p>
           </div>
-
-         
         </div>
       </div>
+    </div>
     </div>
   );
 };

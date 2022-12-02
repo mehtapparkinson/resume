@@ -41,3 +41,33 @@
   justify-content: space-around;
 
   }
+
+
+@media screen and (max-width:480px) {
+  .c {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 120px;
+
+    
+  }
+  .c-item{
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .c-left {
+    width: 100%;
+  }
+
+
+  .c-right{
+    padding: 20px;
+  }
+  .c-img {
+    max-width: 300px;
+    height: auto;
+  }
+}

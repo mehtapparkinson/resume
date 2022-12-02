@@ -34,3 +34,31 @@
 .moti a {
    font-size: larger;
 }
+
+
+@media screen and (max-width: 480px) {
+    .j {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+     
+    }
+
+    .j-left-wrapper {
+    
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+      }
+      .j-right-wrapper {
+    
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+      }
+} 
